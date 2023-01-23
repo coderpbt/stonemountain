@@ -31,6 +31,7 @@ h3{
    justify-content: space-between;
    padding-top: 20px;
    padding-bottom: 17px;
+   align-items: center;
 }
 .logo-img > a > img {
    max-width: 181px;
@@ -122,6 +123,16 @@ h3{
 .user-info > ul li a {
    margin: 0px 4px;
 }
+
+.is-mobile-search,
+.is-mobile-logo,
+.is-mobile-main-menu {
+   display: none;
+}
+.is-desktop-search {
+   display: block;
+ }
+
 /**************************************/
 /************ Header Bottom Css*************/
 /************************************/

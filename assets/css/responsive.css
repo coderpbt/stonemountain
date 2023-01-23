@@ -1,22 +1,347 @@
 @media only screen and (min-width: 1921px) and (max-width: 4800px) {}
 @media only screen and (min-width: 1440px) and (max-width: 1599px) {}
 @media only screen and (min-width: 1280px) and (max-width: 1439px) {}
-@media only screen and (min-width: 1024px) and (max-width: 1279px){}
 
 
-@media all and (max-width:1199px){
-	
+@media all and (max-width: 1439px) {
+  .container,
+  section.whats-new-area .container,
+  section.favorite-facrices-area .container {
+    max-width: 90%;
+  }
+  .newsletter-left h3 {
+      padding-right: 20px;
+  }
+  .search-news-area > button {
+      padding: 15px 20px;
+  }
+  .search-news-area input {
+      margin-right: 30px;
+  }
+  .menu ul li.has-submenu .submenu {
+      top: 90px;
+      max-width: 98%;
+      width: 100%;
+      left: 0;
+  }
 }
-@media all and (max-width:1140px){
-	
+
+@media only screen and (min-width: 992px) and (max-width: 1300px){
+  .menu {
+      padding-right: 90px;
+  }
+  .menu ul li a, .faq ul li a {
+      padding: 20px 29px;
+  }
+  .header-search-right {
+      flex: 0 0 70%;
+  }
+  .search-form {
+    flex: 0 0 74%;
+      padding-left: 50px;
+  }
+  .search-inner-area > button > img {
+      width: 40px;
+  }
+  .header-main-area {
+      align-items: center;
+  }
+  .search-news-area > button {
+      padding: 11px 13px;
+  }
+  .newsletter-left span {
+    margin-right: 5px;
+}
+
 }
 
 @media all and (max-width:991px){
+  .is-desktop-search{
+    display: none;
+  }
+  .is-mobile-search{
+    display: block;
+ }
+ .search-form.is-mobile-search img {
+  width: 40px;
+}
+.header-logo-left {
+  flex: 0 0 50%;
+  justify-content: unset;
+}
+.search-form {
+  flex: 1;
+  text-align: end;
+}
+.header-search-right {
+  flex: 1;
+}
+.logo-img > a > img {
+  max-width: 145px;
+}
+.menu ul li a, .faq ul li a {
+  padding: 20px 18px;
+}
+.menu {
+  padding-right: 20px;
+}
+
+ul.submenu > li a {
+  padding: 10px 40px;
+}
+.newsletter-main {
+  gap: 20px;
+}
+.newsletter-left {
+  flex: 0 0 50%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.newsletter-left span {
+  margin-top: 8px;
+}
+.search-news-area.flex {
+  flex-direction: column;
+}
+.search-news-area > button {
+  width: 155px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+.common-heading h2 {
+  font-size: 25px;
+}
+.whats-new-area {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.common-heading h3 {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.whats-new-main.favorite-facrices-main {
+  padding-top: 15px;
+}
+
+
 
 }
 
 @media all and (max-width:767px){
-	
+  .is-desktop-menu,
+  .is-desktop-logo{
+    display: none;
+  }
+  .whats-new-main {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 11px;
+}
+.common-heading h2 {
+  font-size: 14px;
+  padding-top: 7px;
+  padding-bottom: 22px;
+}
+.newsletter-left h3 {
+  font-size: 12px;
+  line-height: 15px;
+}
+.newsletter-left span {
+  font-size: 12px;
+  line-height: 12px;
+  color: #000;
+}
+.newsletter-area {
+  padding: 7px 0px;
+}
+
+  .is-mobile-logo,
+  .is-mobile-main-menu{
+    display: block;
+  }
+  .search-form {
+    padding-left: 24px;
+}
+.user-info > ul li a img {
+  width: 30px;
+  height: auto;
+}
+.search-form.is-mobile-search img {
+  width: 32px;
+}
+.logo-img.flex {
+  align-items: center;
+}
+.header-logo-left {
+  margin-left: 14px;
+}
+
+/* mobile menu css */
+.header-main-area{
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 14px;
+}
+.openLevel > img {
+  width: 94%;
+  height: auto;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.humberger-toggle {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.humberger-toggle img {
+  margin: 3PX;
+  width: 32px;
+  height: 3px;
+}
+
+
+  .pushNav {
+    width: 320px;
+    left: -75%;
+ }
+
+
+  .pushNav {
+    width: 350px;
+    left: -350px;
+ }
+
+ul.pushNav {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.pushNav {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  overflow-x: hidden;
+  background: #fff;
+  transition: ease-in-out 0.5s;
+  overflow-y: scroll;
+}
+.pushNav hr {
+  border: 1px solid #555;
+}
+/* .pushNav, .pushNav a {
+  font-size: 1em;
+  font-weight: 100;
+  color: #fff;
+  text-decoration: none;
+} */
+.pushNavIsOpen {
+  overflow: auto;
+  height: 100%;
+}
+.js-topPushNav.isOpen, .pushNav_level.isOpen {
+  left: 0;
+}
+.closeLevel, .openLevel {
+  cursor: pointer;
+}
+.openLevel, .closeLevel, .pushNav a {
+  padding-bottom: 20px;
+  display: block;
+  text-indent: 9px;
+  transition: background 0.4s ease-in-out;
+}
+
+.pushNav a {
+  padding: 15px;
+  display: block;
+  text-indent: 9px;
+  transition: background 0.4s ease-in-out;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  border: 0.5px solid rgba(0, 0, 0, 0.39);
+}
+
+.openLevel:hover, .closeLevel:hover, .pushNav a:hover {
+  background: #494a50;
+}
+.hdg {
+  background-color: #1e1e24;
+}
+.closeLevel, closelevel > i {
+  font-size: 1em;
+  color: #a5a5a4;
+}
+.burger {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}
+.burger i {
+  font-size: 3em;
+}
+.screen {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.pushNavIsOpen .screen {
+  height: 100%;
+  opacity: 1;
+}
+.fa {
+  display: inline;
+  padding: 5px;
+}
+/* body {
+  background: url(https://static.pexels.com/photos/379600/pexels-photo-379600.jpeg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: black;
+} */
+.wrapper {
+  max-width: 320px;
+  padding: 0 20px;
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+.wrapper a {
+  color: #20c270;
+  text-decoration: none;
+}
+.wrapper button {
+  background-color: #20c270;
+  margin: 50px auto;
+  display: block;
+  padding: 10px 40px;
+  border: none;
+}
+.wrapper button:hover {
+  background-color: #18a960;
+}
+.wrapper button a {
+  color: #fff;
+  font-size: 2em;
+}
+
+
+
+
+
+
+
+
 }
 
 @media all and (max-width:575px){

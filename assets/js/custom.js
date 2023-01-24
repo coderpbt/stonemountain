@@ -1,3 +1,9 @@
+$(document).ready(function(){
+
+$('.is-mobile-search img').click(function(){
+	$('.mobile-search-box').slideToggle();
+	return false;
+});	
 
 	var menuTrigger = $('.js-menuToggle');
   var topNav = $('.js-topPushNav');
@@ -43,7 +49,7 @@ $('.screen').click(function() {
 });
 
 
-
+});
 
 
 

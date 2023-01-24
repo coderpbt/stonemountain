@@ -22,7 +22,9 @@ h3{
 .flex{
    display: flex;
 }
-
+.all-overfollow{
+   overflow: hidden !important;
+}
 /**************************************/
 /************ Header  Area Css*************/
 /************************************/
@@ -126,12 +128,20 @@ h3{
 
 .is-mobile-search,
 .is-mobile-logo,
-.is-mobile-main-menu {
+.is-mobile-main-menu,
+.is-mobile {
    display: none;
 }
 .is-desktop-search {
    display: block;
  }
+ section.banner-area {
+   margin-bottom: 12px;
+}
+.is-desktop-info{
+   display: block;
+ }
+ 
 
 /**************************************/
 /************ Header Bottom Css*************/

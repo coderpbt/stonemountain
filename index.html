@@ -1,75 +1,118 @@
-<!DOCTYPE HTML>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en-US">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
         <title>Stonemountain</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/images/logo.png" />
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo.png" />
 
-		<!-- Stylesheet <-->
-		<!-- normalize -->
-        <link rel="stylesheet" href="assets/css/normalize.css">
-		<!-- Main Stylesheet -->
-        <link rel="stylesheet" href="assets/css/style.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="all" />
-		<!-- Google fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">	
-		
+        <!-- Stylesheet <-->
+        <!-- normalize -->
+        <link rel="stylesheet" href="assets/css/normalize.css" />
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="all" />
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
     </head>
     <body>
-         <!--[if lte IE 9]>
+        <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-        <!--=========================================================
+        <div class="all-overfollow">
+            <!--=========================================================
                                 Start header Top area
          =============================================================-->
-        <header class="header-area">
-            <div class="container">
-                <div class="header-main-area">
-                    <!--start is-mobile-main-menu -->
-                    <div class="is-mobile-main-menu">
-                        <nav>
-                            <ul class="pushNav js-topPushNav">
-                              <li class="closeLevel js-closeLevelTop hdg">
-                                <i class="fa fa-close"></i>
-                                Close
-                              </li>
-                              <li>
-                                <div class="openLevel js-openLevel">
-                                 <img src="assets/images/f1.png" alt="f1">
+            <header class="header-area">
+                <div class="container">
+                    <div class="header-main-area">
+                        <!--start logo area -->
+                        <div class="header-logo-left">
+                            <!-- is desktop logo -->
+                            <div class="is-desktop-logo">
+                                <div class="logo-img">
+                                    <a href="index.html"><img src="assets/images/logo.png" alt="logo" /></a>
                                 </div>
-                                <ul class="pushNav pushNav_level js-pushNavLevel">
-                                  <li class="closeLevel js-closeLevel hdg">
-                                    <i class="fa fa-chevron-left"></i>
-                                    FABRIC
-                                  </li>
-                                    <li><a href="#">Cotton Woven</a></li>
-                                    <li><a href="#">Deadstock</a></li>
-                                    <li><a href="#">Double Gauze</a></li>
-                                    <li><a href="#">Double Gauze</a></li>
-                                    <li><a href="#">Fabric Bundles</a></li>
-                                    <li><a href="#">Flannel</a></li>
-                                    <li><a href="#">Ikats and Indian Imports</a></li>
-                                    <li><a href="#">Japanese Imports</a></li>
-                                    <li><a href="#">Lady McElroy</a></li>
+                            </div>
+                            <!-- is mobile logo -->
+                            <div class="is-mobile-logo">
+                                <div class="logo-img flex">
+                                    <a href="index.html"><img src="assets/images/m.png" alt="logo" /></a>
+                                    <a href="index.html"><img src="assets/images/mlogo.png" alt="logo" /></a>
+                                </div>
+                            </div>
+
+                            <div class="top-menu is-desktop-info">
+                                <ul class="flex">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Blog</a></li>
                                 </ul>
-                              </li>
-                  
-                                <li>
-                                    <div class="openLevel js-openLevel">
-                                        <img src="assets/images/f2.png" alt="f2">
+                            </div>
+                        </div>
+                        <!--End logo area -->
+                        <!--Start header search area -->
+                        <div class="header-search-right">
+                            <div class="header-search-right-inner">
+                                <!-- is desktop -->
+                                <div class="search-form is-desktop-search">
+                                    <form autocomplete="off">
+                                        <div class="search-inner-area flex">
+                                            <input id="myInput" type="text" name="search" placeholder="Search for your favourite fabric" />
+                                            <button type="submit">
+                                                <img src="assets/images/Search.png" alt="search" />
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- is mobile -->
+                                <div class="search-form is-mobile-search">
+                                    <img src="assets/images/Search.png" alt="search" />
+                                    <div class="mobile-search-box">
+                                        <input class="mobile-search" type="text" placeholder="ENTER SEARCH TERM">
                                     </div>
-                                    <ul class="pushNav pushNav_level js-pushNavLevel">
-                                    <li class="closeLevel js-closeLevel hdg">
-                                        <i class="fa fa-chevron-left"></i>
-                                        Go Back
-                                    </li>
+                                </div>
+
+                                <div class="user-info">
+                                    <ul class="flex">
+                                        <li>
+                                            <a href="#"><img src="assets/images/MaleUser.png" alt="MaleUser" /></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="assets/images/Favoritr.png" alt="MaleUser" /></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="assets/images/Busket.png" alt="MaleUser" /></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End header search area -->
+                    </div>
+                </div>
+            </header>
+            <!--=========================================================
+                                End header Top area
+         =============================================================-->
+
+            <!--=========================================================
+                Start header Bottom desktop and mobile menu area
+         =============================================================-->
+            <section class="header-bottom-menu-area is-desktop-menu">
+                <div class="container">
+                    <div class="header-bottom-main flex">
+                        <!-- start main menu -->
+                        <div class="menu">
+                            <ul class="flex">
+                                <li class="has-submenu">
+                                    <a href="#">NEW ARRIVALS</a>
+                                    <ul class="submenu">
                                         <li><a href="#">Cotton Woven</a></li>
                                         <li><a href="#">Deadstock</a></li>
                                         <li><a href="#">Double Gauze</a></li>
@@ -80,259 +123,244 @@
                                         <li><a href="#">Japanese Imports</a></li>
                                         <li><a href="#">Lady McElroy</a></li>
                                     </ul>
-                              </li>
-         
-                          
-                              <li>
-                                <div class="openLevel js-openLevel">
-                                    <img src="assets/images/f3.png" alt="f3">
-                                </div>
-                                <ul class="pushNav pushNav_level js-pushNavLevel">
-                                  <li class="closeLevel js-closeLevel hdg">
-                                    <i class="fa fa-chevron-left"></i>
-                                    Go Back
-                                  </li>
-                                  <li><a href="#">Cotton Woven</a></li>
-                                  <li><a href="#">Deadstock</a></li>
-                                  <li><a href="#">Double Gauze</a></li>
-                                  <li><a href="#">Double Gauze</a></li>
-                                  <li><a href="#">Fabric Bundles</a></li>
-                                  <li><a href="#">Flannel</a></li>
-                                  <li><a href="#">Ikats and Indian Imports</a></li>
-                                  <li><a href="#">Japanese Imports</a></li>
-                                  <li><a href="#">Lady McElroy</a></li>
-                                </ul>
-                              </li>
-                              <li>
-                                <div class="openLevel js-openLevel">
-                                    <img src="assets/images/f4.png" alt="f4">
-                                </div>
-                                <ul class="pushNav pushNav_level js-pushNavLevel">
-                                  <li class="closeLevel js-closeLevel hdg">
-                                    <i class="fa fa-chevron-left"></i>
-                                    Go Back
-                                  </li>
-                                  <li><a href="#">Cotton Woven</a></li>
-                                  <li><a href="#">Deadstock</a></li>
-                                  <li><a href="#">Double Gauze</a></li>
-                                  <li><a href="#">Double Gauze</a></li>
-                                  <li><a href="#">Fabric Bundles</a></li>
-                                  <li><a href="#">Flannel</a></li>
-                                  <li><a href="#">Ikats and Indian Imports</a></li>
-                                  <li><a href="#">Japanese Imports</a></li>
-                                  <li><a href="#">Lady McElroy</a></li>
-                                </ul>
-                              </li>
-                              <li>
-                                <div class="openLevel js-openLevel">
-                                    <img src="assets/images/f5.png" alt="f5">
-                                </div>
-                                <ul class="pushNav pushNav_level js-pushNavLevel">
-                                  <li class="closeLevel js-closeLevel hdg">
-                                    <i class="fa fa-chevron-left"></i>
-                                    Go Back
-                                  </li>
-                                  <li><a href="#">Cotton Woven</a></li>
-                                  <li><a href="#">Deadstock</a></li>
-                                  <li><a href="#">Double Gauze</a></li>
-                                  <li><a href="#">Double Gauze</a></li>
-                                  <li><a href="#">Fabric Bundles</a></li>
-                                  <li><a href="#">Flannel</a></li>
-                                  <li><a href="#">Ikats and Indian Imports</a></li>
-                                  <li><a href="#">Japanese Imports</a></li>
-                                  <li><a href="#">Lady McElroy</a></li>
-                                </ul>
-                              </li>
-                              <hr/> 
-
-                          
-                            </ul>
-                          </nav>
-                          
-                          <div class="wrapper">
-                            <div class="burger js-menuToggle">
-                                <div class="humberger-toggle">
-                                    <img src="assets/images/line.png" alt="line">
-                                    <img src="assets/images/line.png" alt="line">
-                                    <img src="assets/images/line.png" alt="line">
-                                </div>
-                              
-                            </div>
-                          </div>
-                          
-                          <span class="screen"></span>   
-                    </div>
-                    <!--End is-mobile-main-menu -->
-
-                    <!--start logo area -->
-                    <div class="header-logo-left">
-                        <!-- is desktop logo -->
-                        <div class="is-desktop-logo">
-                            <div class="logo-img">
-                                <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
-                            </div>
-                         </div>
-                         <!-- is mobile logo -->
-                        <div class="is-mobile-logo">
-                            <div class="logo-img flex">
-                                <a href="index.html"><img src="assets/images/m.png" alt="logo"></a>
-                                <a href="index.html"><img src="assets/images/mlogo.png" alt="logo"></a>
-                            </div>
-                         </div>
-
-                        <div class="top-menu is-desktop-logo">
-                            <ul class="flex">
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Blog</a></li>
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="#">FABRIC</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">Cotton Woven</a></li>
+                                        <li><a href="#">Deadstock</a></li>
+                                        <li><a href="#">Double Gauze</a></li>
+                                        <li><a href="#">Double Gauze</a></li>
+                                        <li><a href="#">Fabric Bundles</a></li>
+                                        <li><a href="#">Flannel</a></li>
+                                        <li><a href="#">Ikats and Indian Imports</a></li>
+                                        <li><a href="#">Japanese Imports</a></li>
+                                        <li><a href="#">Lady McElroy</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="#">PATTERNS</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">Cotton Woven</a></li>
+                                        <li><a href="#">Deadstock</a></li>
+                                        <li><a href="#">Double Gauze</a></li>
+                                        <li><a href="#">Double Gauze</a></li>
+                                        <li><a href="#">Fabric Bundles</a></li>
+                                        <li><a href="#">Flannel</a></li>
+                                        <li><a href="#">Ikats and Indian Imports</a></li>
+                                        <li><a href="#">Japanese Imports</a></li>
+                                        <li><a href="#">Lady McElroy</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="#">NOTIONS</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">Cotton Woven</a></li>
+                                        <li><a href="#">Deadstock</a></li>
+                                        <li><a href="#">Double Gauze</a></li>
+                                        <li><a href="#">Double Gauze</a></li>
+                                        <li><a href="#">Fabric Bundles</a></li>
+                                        <li><a href="#">Flannel</a></li>
+                                        <li><a href="#">Ikats and Indian Imports</a></li>
+                                        <li><a href="#">Japanese Imports</a></li>
+                                        <li><a href="#">Lady McElroy</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="#">GIFT CARDS</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">Cotton Woven</a></li>
+                                        <li><a href="#">Deadstock</a></li>
+                                        <li><a href="#">Double Gauze</a></li>
+                                        <li><a href="#">Double Gauze</a></li>
+                                        <li><a href="#">Fabric Bundles</a></li>
+                                        <li><a href="#">Flannel</a></li>
+                                        <li><a href="#">Ikats and Indian Imports</a></li>
+                                        <li><a href="#">Japanese Imports</a></li>
+                                        <li><a href="#">Lady McElroy</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </div>
+                        <!-- End main menu -->
+                        <!-- start faq  -->
+                        <div class="faq">
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <!-- end faq  -->
                     </div>
-                    <!--End logo area -->
-                    <!--Start header search area -->
-                    <div class="header-search-right">
-                        <div class="header-search-right-inner">
-                            <!-- is desktop -->
-                            <div class="search-form is-desktop-search">
-                                <form autocomplete="off">
-                                    <div class="search-inner-area flex">
-                                        <input id="myInput" type="text" name="search" placeholder="Search for your favourite fabric">
-                                        <button type="submit">
-                                            <img src="assets/images/Search.png" alt="search">
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                             <!-- is mobile -->
-                            <div class="search-form is-mobile-search">
-                                <img src="assets/images/Search.png" alt="search">
-                            </div>
-
-                            <div class="user-info">
-                                <ul class="flex">
-                                    <li><a href="#"><img src="assets/images/MaleUser.png" alt="MaleUser"></a></li>
-                                    <li><a href="#"><img src="assets/images/Favoritr.png" alt="MaleUser"></a></li>
-                                    <li><a href="#"><img src="assets/images/Busket.png" alt="MaleUser"></a></li>
-                                </ul>
-                            </div>
-                       </div>
-                    </div>
-                    <!--End header search area -->
                 </div>
-            </div>
-        </header>
-        <!--=========================================================
-                                End header Top area
-         =============================================================-->
+            </section>
 
-        <!--=========================================================
-                                Start header Bottom area
-         =============================================================-->
-        <section class="header-bottom-menu-area is-desktop-menu">
-            <div class="container">
-                <div class="header-bottom-main flex">
-                    <!-- start main menu -->
-                    <div class="menu">
-                        <ul class="flex">
-                            <li class="has-submenu"><a href="#">NEW ARRIVALS</a>
-                                <ul class="submenu">
-                                    <li><a href="#">Cotton Woven</a></li>
-                                    <li><a href="#">Deadstock</a></li>
-                                    <li><a href="#">Double Gauze</a></li>
-                                    <li><a href="#">Double Gauze</a></li>
-                                    <li><a href="#">Fabric Bundles</a></li>
-                                    <li><a href="#">Flannel</a></li>
-                                    <li><a href="#">Ikats and Indian Imports</a></li>
-                                    <li><a href="#">Japanese Imports</a></li>
-                                    <li><a href="#">Lady McElroy</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-submenu"><a href="#">FABRIC</a>
-                                <ul class="submenu">
-                                    <li><a href="#">Cotton Woven</a></li>
-                                    <li><a href="#">Deadstock</a></li>
-                                    <li><a href="#">Double Gauze</a></li>
-                                    <li><a href="#">Double Gauze</a></li>
-                                    <li><a href="#">Fabric Bundles</a></li>
-                                    <li><a href="#">Flannel</a></li>
-                                    <li><a href="#">Ikats and Indian Imports</a></li>
-                                    <li><a href="#">Japanese Imports</a></li>
-                                    <li><a href="#">Lady McElroy</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-submenu"><a href="#">PATTERNS</a>
-                                <ul class="submenu">
-                                    <li><a href="#">Cotton Woven</a></li>
-                                    <li><a href="#">Deadstock</a></li>
-                                    <li><a href="#">Double Gauze</a></li>
-                                    <li><a href="#">Double Gauze</a></li>
-                                    <li><a href="#">Fabric Bundles</a></li>
-                                    <li><a href="#">Flannel</a></li>
-                                    <li><a href="#">Ikats and Indian Imports</a></li>
-                                    <li><a href="#">Japanese Imports</a></li>
-                                    <li><a href="#">Lady McElroy</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-submenu"><a href="#">NOTIONS</a>
-                                <ul class="submenu">
-                                    <li><a href="#">Cotton Woven</a></li>
-                                    <li><a href="#">Deadstock</a></li>
-                                    <li><a href="#">Double Gauze</a></li>
-                                    <li><a href="#">Double Gauze</a></li>
-                                    <li><a href="#">Fabric Bundles</a></li>
-                                    <li><a href="#">Flannel</a></li>
-                                    <li><a href="#">Ikats and Indian Imports</a></li>
-                                    <li><a href="#">Japanese Imports</a></li>
-                                    <li><a href="#">Lady McElroy</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-submenu"><a href="#">GIFT CARDS</a>
-                                <ul class="submenu">
-                                    <li><a href="#">Cotton Woven</a></li>
-                                    <li><a href="#">Deadstock</a></li>
-                                    <li><a href="#">Double Gauze</a></li>
-                                    <li><a href="#">Double Gauze</a></li>
-                                    <li><a href="#">Fabric Bundles</a></li>
-                                    <li><a href="#">Flannel</a></li>
-                                    <li><a href="#">Ikats and Indian Imports</a></li>
-                                    <li><a href="#">Japanese Imports</a></li>
-                                    <li><a href="#">Lady McElroy</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+         <!--====================start is-mobile-main-menu ====================-->
+
+            <section class="is-mobile-main-menu">
+                <nav>
+                    <ul class="pushNav js-topPushNav">
+                        <li class="closeLevel js-closeLevelTop hdg">
+                            <div class="humberger-toggle">
+                                <img src="assets/images/line.png" alt="line" />
+                                <img src="assets/images/line.png" alt="line" />
+                                <img src="assets/images/line.png" alt="line" />
+                            </div>
+                        </li>
+                        <li>
+                            <div class="openLevel js-openLevel">
+                                <div class="parent-catagory">
+                                    <h2>NEW ARRIVALS</h2>
+                                    <img src="assets/images/b1.png" alt="bl" />
+                                </div>
+                            </div>
+                            <ul class="pushNav pushNav_level js-pushNavLevel">
+                                <li class="closeLevel js-closeLevel hdg">
+                                    <img src="assets/images/arrow.png" alt="arrow" />
+                                    NEW ARRIVALS
+                                </li>
+                                <li><a href="#">Cotton Woven</a></li>
+                                <li><a href="#">Deadstock</a></li>
+                                <li><a href="#">Double Gauze</a></li>
+                                <li><a href="#">Double Gauze</a></li>
+                                <li><a href="#">Fabric Bundles</a></li>
+                                <li><a href="#">Flannel</a></li>
+                                <li><a href="#">Ikats and Indian Imports</a></li>
+                                <li><a href="#">Japanese Imports</a></li>
+                                <li><a href="#">Lady McElroy</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <div class="openLevel js-openLevel">
+                                <div class="parent-catagory">
+                                    <h2>FABRIC</h2>
+                                    <img src="assets/images/b2.png" alt="b2" />
+                                </div>
+                            </div>
+                            <ul class="pushNav pushNav_level js-pushNavLevel">
+                                <li class="closeLevel js-closeLevel hdg">
+                                    <img src="assets/images/arrow.png" alt="arrow" />
+                                    FABRIC
+                                </li>
+                                <li><a href="#">Cotton Woven</a></li>
+                                <li><a href="#">Deadstock</a></li>
+                                <li><a href="#">Double Gauze</a></li>
+                                <li><a href="#">Double Gauze</a></li>
+                                <li><a href="#">Fabric Bundles</a></li>
+                                <li><a href="#">Flannel</a></li>
+                                <li><a href="#">Ikats and Indian Imports</a></li>
+                                <li><a href="#">Japanese Imports</a></li>
+                                <li><a href="#">Lady McElroy</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <div class="openLevel js-openLevel">
+                                <div class="parent-catagory">
+                                    <h2>PATTERNS</h2>
+                                    <img src="assets/images/b3.png" alt="b3" />
+                                </div>
+                            </div>
+                            <ul class="pushNav pushNav_level js-pushNavLevel">
+                                <li class="closeLevel js-closeLevel hdg">
+                                    <img src="assets/images/arrow.png" alt="arrow" />
+                                    PATTERNS
+                                </li>
+                                <li><a href="#">Cotton Woven</a></li>
+                                <li><a href="#">Deadstock</a></li>
+                                <li><a href="#">Double Gauze</a></li>
+                                <li><a href="#">Double Gauze</a></li>
+                                <li><a href="#">Fabric Bundles</a></li>
+                                <li><a href="#">Flannel</a></li>
+                                <li><a href="#">Ikats and Indian Imports</a></li>
+                                <li><a href="#">Japanese Imports</a></li>
+                                <li><a href="#">Lady McElroy</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="openLevel js-openLevel">
+                                <div class="parent-catagory">
+                                    <h2>NOTIONS</h2>
+                                    <img src="assets/images/b4.png" alt="b4" />
+                                </div>
+                            </div>
+                            <ul class="pushNav pushNav_level js-pushNavLevel">
+                                <li class="closeLevel js-closeLevel hdg">
+                                    <img src="assets/images/arrow.png" alt="arrow" />
+                                    NOTIONS
+                                </li>
+                                <li><a href="#">Cotton Woven</a></li>
+                                <li><a href="#">Deadstock</a></li>
+                                <li><a href="#">Double Gauze</a></li>
+                                <li><a href="#">Double Gauze</a></li>
+                                <li><a href="#">Fabric Bundles</a></li>
+                                <li><a href="#">Flannel</a></li>
+                                <li><a href="#">Ikats and Indian Imports</a></li>
+                                <li><a href="#">Japanese Imports</a></li>
+                                <li><a href="#">Lady McElroy</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="openLevel js-openLevel">
+                                <div class="parent-catagory">
+                                    <h2>GIFT CARDS</h2>
+                                    <img src="assets/images/b5.png" alt="b5" />
+                                </div>
+                            </div>
+                            <ul class="pushNav pushNav_level js-pushNavLevel">
+                                <li class="closeLevel js-closeLevel hdg">
+                                    <img src="assets/images/arrow.png" alt="arrow" />
+                                    GIFT CARDS
+                                </li>
+                                <li><a href="#">Cotton Woven</a></li>
+                                <li><a href="#">Deadstock</a></li>
+                                <li><a href="#">Double Gauze</a></li>
+                                <li><a href="#">Double Gauze</a></li>
+                                <li><a href="#">Fabric Bundles</a></li>
+                                <li><a href="#">Flannel</a></li>
+                                <li><a href="#">Ikats and Indian Imports</a></li>
+                                <li><a href="#">Japanese Imports</a></li>
+                                <li><a href="#">Lady McElroy</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="wrapper">
+                    <div class="burger js-menuToggle">
+                        <div class="humberger-toggle">
+                            <img src="assets/images/line.png" alt="line" />
+                            <img src="assets/images/line.png" alt="line" />
+                            <img src="assets/images/line.png" alt="line" />
+                        </div>
                     </div>
-                     <!-- End main menu -->
-                    <!-- start faq  -->
-                    <div class="faq">
-                        <ul>
-                            <li><a href="#">FAQ</a></li>
-                        </ul>
-                    </div>
-                    <!-- end faq  -->
                 </div>
-            </div>
-        </section>
-		
-        <!--=========================================================
-                                End header Bottom area
+
+                <span class="screen"></span>
+                <!--End is-mobile-main-menu -->
+            </section>
+
+            <!--=========================================================
+                End header Bottom desktop and mobile menu area
          =============================================================-->
 
-          <!--=========================================================
+            <!--=========================================================
                         start Banner area
          =============================================================-->
-         <section class="banner-area">
-            <div class="banner">
-                <a href="#">
-                    <img class="is-desktop-logo" src="assets/images/banner.png" alt="banner">
-                    <img class="is-mobile-logo" src="assets/images/mobile-banner.png" alt="banner">
-                </a>
-            </div>
-         </section>
+            <section class="banner-area">
+                <div class="banner">
+                    <a href="#">
+                        <img class="is-desktop" src="assets/images/banner.png" alt="banner" />
+                        <img class="is-mobile" src="assets/images/mobile-banner.png" alt="banner" />
+                    </a>
+                </div>
+            </section>
 
-         <!--=========================================================
+            <!--=========================================================
                          End Banner area
          =============================================================-->
 
-          <!--=========================================================
+            <!--=========================================================
                          Start newsletter area
          =============================================================-->
             <section class="newsletter-area">
@@ -345,9 +373,12 @@
                         <div class="newsletter-right">
                             <form autocomplete="off">
                                 <div class="search-news-area flex">
-                                    <input type="email" name="email">
-                                    <button type="submit">
+                                    <input type="email" name="email" />
+                                    <button class="is-desktop" type="submit">
                                         JOIN NOW
+                                    </button>
+                                    <button class="is-mobile" type="submit">
+                                        <span> Yes Please</span>
                                     </button>
                                 </div>
                             </form>
@@ -356,11 +387,11 @@
                 </div>
             </section>
 
-          <!--=========================================================
+            <!--=========================================================
                          End newsletter area
          =============================================================-->
 
-           <!--=========================================================
+            <!--=========================================================
                         start whats new area
          =============================================================-->
             <section class="whats-new-area is-mobile-logo">
@@ -370,16 +401,15 @@
                     </div>
                     <div class="whats-new-main">
                         <div class="new-brand">
-                            <img src="assets/images/p1.png" alt="brand">
+                            <img src="assets/images/p1.png" alt="brand" />
                         </div>
                         <div class="new-brand">
-                            <img src="assets/images/p2.png" alt="brand">
+                            <img src="assets/images/p2.png" alt="brand" />
                         </div>
                         <div class="new-brand">
-                            <img src="assets/images/p2.png" alt="brand">
+                            <img src="assets/images/p2.png" alt="brand" />
                         </div>
                     </div>
-
                 </div>
             </section>
 
@@ -391,48 +421,48 @@
                     </div>
                     <div class="whats-new-main">
                         <div class="new-brand">
-                            <img src="assets/images/p1.png" alt="brand">
+                            <img src="assets/images/p1.png" alt="brand" />
                         </div>
                         <div class="new-brand">
-                            <img src="assets/images/p2.png" alt="brand">
+                            <img src="assets/images/p2.png" alt="brand" />
                         </div>
                     </div>
                 </div>
             </section>
-           <!--=========================================================
+            <!--=========================================================
                          End whats new area
          =============================================================-->
 
-          <!--=========================================================
+            <!--=========================================================
                          Start favorite fabrics area
          =============================================================-->
-         <section class="favorite-facrices-area is-desktop-logo">
-            <div class="container">
-                <div class="common-heading">
-                    <h2>SHOP OUR FAVOURITE FABRICS TO SEW AND WEAR</h2>
-                </div>
-                <div class="whats-new-main favorite-facrices-main">
-                    <div class="new-brand">
-                        <img src="assets/images/c1.png" alt="brand">
+            <section class="favorite-facrices-area is-desktop-logo">
+                <div class="container">
+                    <div class="common-heading">
+                        <h2>SHOP OUR FAVOURITE FABRICS TO SEW AND WEAR</h2>
                     </div>
-                    <div class="new-brand">
-                        <img src="assets/images/c2.png" alt="brand">
+                    <div class="whats-new-main favorite-facrices-main">
+                        <div class="new-brand">
+                            <img src="assets/images/c1.png" alt="brand" />
+                        </div>
+                        <div class="new-brand">
+                            <img src="assets/images/c2.png" alt="brand" />
+                        </div>
                     </div>
                 </div>
-            </div>
-         </section>
-          <!--=========================================================
+            </section>
+            <!--=========================================================
                          End favorite fabrics area
          =============================================================-->
-		
-		<!-- Js Files -->
-		<!-- modernizr -->
+        </div>
+        <!-- Js Files -->
+        <!-- modernizr -->
         <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-		<!-- jQuery -->
+        <!-- jQuery -->
         <script type="text/javascript" src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-		<!-- Bootstrap Popper -->
+        <!-- Bootstrap Popper -->
         <script src="assets/js/popper.js"></script>
-		<!-- Custom Scripts -->
+        <!-- Custom Scripts -->
         <script src="assets/js/custom.js"></script>
     </body>
 </html>
